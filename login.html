@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candles Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Inter;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    viewport-fit: auto;
+}
+body{
+    min-height: 100%;
+    background-image: url(../pic.jpg);
+    background-position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    align-items: center;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 300px;
+    font-size: 40px;
+}
+input{
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.textbox{
+    color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.textbox::placeholder{
+    color: rgb(0, 0, 0);
+}
+.textbox:hover,
+.textbox :focus{
+    background: white;
+    width: 250px;
+    height: 50;
+    color: black;
+}
+.btn-submit{
+    background: white;
+    color: black;
+}
+.btn-submit:hover{
+    background: white;
+    color: black;
+    box-shadow: 0 0 10px rgba 0,0,0,0.1;
+}
+        </style>
+</head>
+
+<body>
+    <form class="container">
+        <h1>Register</h1>
+        <input class="textbox" type="text" placeholder="Username">
+        <input class="textbox" type="password" placeholder="Password">
+        <input class="textbox" type="email" placeholder="Email">
+        <a href="head.html"><input class="btn-submit" type="submit" value="Register"></a>
+    </form>
+</body>
+
+</html>
